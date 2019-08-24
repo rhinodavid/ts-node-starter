@@ -1,0 +1,30 @@
+{
+  "name": "ts-node-starter",
+  "version": "1.0.0",
+  "main": "build/index.js",
+  "author": "Amal Raghav <amal.raghav@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "nodemon",
+    "lint": "eslint --ext .ts,.js src/",
+    "test": "jest",
+    "build": "tsc",
+    "prod": "node build/index.js"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/preset-typescript": "^7.3.3",
+    "@types/jest": "^24.0.18",
+    "@typescript-eslint/eslint-plugin": "^2.0.0",
+    "@typescript-eslint/parser": "^2.0.0",
+    "babel-jest": "^24.9.0",
+    "eslint": "^6.2.2",
+    "eslint-config-prettier": "^6.1.0",
+    "jest": "^24.9.0",
+    "nodemon": "^1.19.1",
+    "ts-node": "^8.3.0",
+    "typescript": "^3.5.3"
+  }
+}
